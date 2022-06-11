@@ -59,4 +59,5 @@ const mergeTwoLists = (list1, list2) => {
 };
 
 const res = mergeTwoLists(list1, list2);
+
 console.log(res, 'res');
