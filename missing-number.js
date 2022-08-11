@@ -10,9 +10,12 @@ const missingNumber = function(nums) {
     map.set(nums[i], true);
   }
 
-  for (let i = 0; i < nums.length; i++) {
+  for (let i = 0; i < nums.length + 1; i++) {
     if (!map.get(i)) {
       return i;
     }
   }
 };
+
+
+console.log(missingNumber([0, 1]));
